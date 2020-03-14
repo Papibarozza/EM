@@ -1,6 +1,6 @@
 # EM algorithm implementation
 
-This code is accompanying a video that I made which demonstrate the intuitive way of thinking about the EM algorithm.
+This code is accompanying a video that I made (https://www.youtube.com/watch?v=8eJioAz6Z1c) which demonstrate the intuitive way of thinking about the EM algorithm.
 If you look at the video, the steps as implemented in the code shouldn't be a problem to follow.
 The `plot.py` function can help you to plot the result of the algorithm and save figures of the state of the gaussians after each iteration.
 It can be useful to study these plots if the program crashes to see what has happened to the gaussians.
@@ -23,3 +23,6 @@ while i<=num_iters:
   i+=1
 
 ```
+
+###
+_This project is distributied under the GNU licence_
